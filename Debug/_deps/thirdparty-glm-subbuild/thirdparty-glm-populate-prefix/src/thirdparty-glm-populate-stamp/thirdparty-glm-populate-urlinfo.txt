@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/ian/School/Winter 2021/COMP 371/Udemy/thirdparty/glm-0.9.9.8.zip'
+tag=''

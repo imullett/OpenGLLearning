@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/CMakeFiles/thirdparty-glew-populate"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/CMakeFiles/thirdparty-glew-populate.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/CMakeFiles/thirdparty-glew-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/thirdparty-glew-populate-install.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/thirdparty-glew-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/thirdparty-glew-populate-download.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/thirdparty-glew-populate-update.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/thirdparty-glew-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/thirdparty-glew-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/thirdparty-glew-populate-build.rule"
+		},
+		{
+			"file" : "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-subbuild/thirdparty-glew-populate-prefix/src/thirdparty-glew-populate-stamp/thirdparty-glew-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"thirdparty-glew-populate"
+		],
+		"name" : "thirdparty-glew-populate"
+	}
+}
