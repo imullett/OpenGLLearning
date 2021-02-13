@@ -191,36 +191,6 @@ uninstall/fast:
 .PHONY : uninstall/fast
 
 # Convenience name for target.
-_deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/rule:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/rule
-.PHONY : _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/rule
-
-# Convenience name for target.
-visualinfo: _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/rule
-
-.PHONY : visualinfo
-
-# fast build rule for target.
-visualinfo/fast:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/build
-.PHONY : visualinfo/fast
-
-# Convenience name for target.
-_deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/rule:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/rule
-.PHONY : _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/rule
-
-# Convenience name for target.
-glewinfo: _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/rule
-
-.PHONY : glewinfo
-
-# fast build rule for target.
-glewinfo/fast:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/build
-.PHONY : glewinfo/fast
-
-# Convenience name for target.
 _deps/thirdparty-glew-build/CMakeFiles/glew_s.dir/rule:
 	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/thirdparty-glew-build/CMakeFiles/glew_s.dir/rule
 .PHONY : _deps/thirdparty-glew-build/CMakeFiles/glew_s.dir/rule
@@ -280,60 +250,6 @@ __/__/src/glew.c.s:
 	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/glew.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/glew.dir/__/__/src/glew.c.s
 .PHONY : __/__/src/glew.c.s
 
-__/__/src/glewinfo.o: __/__/src/glewinfo.c.o
-
-.PHONY : __/__/src/glewinfo.o
-
-# target to build an object file
-__/__/src/glewinfo.c.o:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.o
-.PHONY : __/__/src/glewinfo.c.o
-
-__/__/src/glewinfo.i: __/__/src/glewinfo.c.i
-
-.PHONY : __/__/src/glewinfo.i
-
-# target to preprocess a source file
-__/__/src/glewinfo.c.i:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.i
-.PHONY : __/__/src/glewinfo.c.i
-
-__/__/src/glewinfo.s: __/__/src/glewinfo.c.s
-
-.PHONY : __/__/src/glewinfo.s
-
-# target to generate assembly for a file
-__/__/src/glewinfo.c.s:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.s
-.PHONY : __/__/src/glewinfo.c.s
-
-__/__/src/visualinfo.o: __/__/src/visualinfo.c.o
-
-.PHONY : __/__/src/visualinfo.o
-
-# target to build an object file
-__/__/src/visualinfo.c.o:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.o
-.PHONY : __/__/src/visualinfo.c.o
-
-__/__/src/visualinfo.i: __/__/src/visualinfo.c.i
-
-.PHONY : __/__/src/visualinfo.i
-
-# target to preprocess a source file
-__/__/src/visualinfo.c.i:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.i
-.PHONY : __/__/src/visualinfo.c.i
-
-__/__/src/visualinfo.s: __/__/src/visualinfo.c.s
-
-.PHONY : __/__/src/visualinfo.s
-
-# target to generate assembly for a file
-__/__/src/visualinfo.c.s:
-	cd "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug" && $(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.s
-.PHONY : __/__/src/visualinfo.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -349,17 +265,9 @@ help:
 	@echo "... uninstall"
 	@echo "... glew"
 	@echo "... glew_s"
-	@echo "... glewinfo"
-	@echo "... visualinfo"
 	@echo "... __/__/src/glew.o"
 	@echo "... __/__/src/glew.i"
 	@echo "... __/__/src/glew.s"
-	@echo "... __/__/src/glewinfo.o"
-	@echo "... __/__/src/glewinfo.i"
-	@echo "... __/__/src/glewinfo.s"
-	@echo "... __/__/src/visualinfo.o"
-	@echo "... __/__/src/visualinfo.i"
-	@echo "... __/__/src/visualinfo.s"
 .PHONY : help
 
 

@@ -196,7 +196,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Lab_1
+CMAKE_PROJECT_NAME:STATIC=OpenGL
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=3.3.2
@@ -380,6 +380,12 @@ OPENGL_opengl_LIBRARY:FILEPATH=/usr/lib/libOpenGL.so
 
 //Path to a file.
 OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
+
+//Value Computed by CMake
+OpenGL_BINARY_DIR:STATIC=/home/ian/School/Winter 2021/COMP 371/Udemy/Debug
+
+//Value Computed by CMake
+OpenGL_SOURCE_DIR:STATIC=/home/ian/School/Winter 2021/COMP 371/Udemy
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config

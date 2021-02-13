@@ -12,8 +12,6 @@
 /home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-build/CMakeFiles/rebuild_cache.dir
 /home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-build/CMakeFiles/edit_cache.dir
 /home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-build/CMakeFiles/uninstall.dir
-/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir
-/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir
 /home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-build/CMakeFiles/glew_s.dir
 /home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glew-build/CMakeFiles/glew.dir
 /home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glfw-build/CMakeFiles/install/strip.dir

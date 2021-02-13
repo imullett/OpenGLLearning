@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(Lab_1)
+project(OpenGL)
 
 include(ExternalProject)
 
@@ -18,7 +18,6 @@ include(BuildGLEW)
 include(BuildGLFW)
 include(BuildGLM)
 
-# lab01
 set(EXEC OpenGL)
 
 set(SRC src/main.cpp)
@@ -30,7 +29,6 @@ target_link_libraries(${EXEC} OpenGL::GL GLEW glfw glm)
 target_include_directories(${EXEC} PUBLIC include)
 
 list(APPEND BIN ${EXEC})
-# end lab01
 
 # install files to install location
 install(TARGETS ${BIN} DESTINATION ${CMAKE_INSTALL_PREFIX})

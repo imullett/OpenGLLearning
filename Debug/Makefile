@@ -202,32 +202,6 @@ uninstall/fast:
 .PHONY : uninstall/fast
 
 #=============================================================================
-# Target rules for targets named visualinfo
-
-# Build rule for target.
-visualinfo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 visualinfo
-.PHONY : visualinfo
-
-# fast build rule for target.
-visualinfo/fast:
-	$(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/visualinfo.dir/build
-.PHONY : visualinfo/fast
-
-#=============================================================================
-# Target rules for targets named glewinfo
-
-# Build rule for target.
-glewinfo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glewinfo
-.PHONY : glewinfo
-
-# fast build rule for target.
-glewinfo/fast:
-	$(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/glewinfo.dir/build
-.PHONY : glewinfo/fast
-
-#=============================================================================
 # Target rules for targets named glew_s
 
 # Build rule for target.
@@ -309,9 +283,7 @@ help:
 	@echo "... OpenGL"
 	@echo "... glew"
 	@echo "... glew_s"
-	@echo "... glewinfo"
 	@echo "... glfw"
-	@echo "... visualinfo"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
