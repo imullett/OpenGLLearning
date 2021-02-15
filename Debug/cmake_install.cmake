@@ -66,11 +66,6 @@ file(INSTALL DESTINATION "/home/ian/School/Winter 2021/COMP 371/Udemy/dist" TYPE
   endif()
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-
-endif()
-
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

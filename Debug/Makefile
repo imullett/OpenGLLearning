@@ -188,58 +188,6 @@ OpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/build
 .PHONY : OpenGL/fast
 
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/uninstall.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
-# Target rules for targets named glew_s
-
-# Build rule for target.
-glew_s: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew_s
-.PHONY : glew_s
-
-# fast build rule for target.
-glew_s/fast:
-	$(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/glew_s.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/glew_s.dir/build
-.PHONY : glew_s/fast
-
-#=============================================================================
-# Target rules for targets named glew
-
-# Build rule for target.
-glew: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew
-.PHONY : glew
-
-# fast build rule for target.
-glew/fast:
-	$(MAKE) $(MAKESILENT) -f _deps/thirdparty-glew-build/CMakeFiles/glew.dir/build.make _deps/thirdparty-glew-build/CMakeFiles/glew.dir/build
-.PHONY : glew/fast
-
-#=============================================================================
-# Target rules for targets named glfw
-
-# Build rule for target.
-glfw: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw
-.PHONY : glfw
-
-# fast build rule for target.
-glfw/fast:
-	$(MAKE) $(MAKESILENT) -f _deps/thirdparty-glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/thirdparty-glfw-build/src/CMakeFiles/glfw.dir/build
-.PHONY : glfw/fast
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -279,11 +227,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... uninstall"
 	@echo "... OpenGL"
-	@echo "... glew"
-	@echo "... glew_s"
-	@echo "... glfw"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

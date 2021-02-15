@@ -98,12 +98,9 @@ OpenGL_EXTERNAL_OBJECTS =
 
 OpenGL: CMakeFiles/OpenGL.dir/src/main.cpp.o
 OpenGL: CMakeFiles/OpenGL.dir/build.make
-OpenGL: _deps/thirdparty-glfw-build/src/libglfw3.a
+OpenGL: /usr/lib/libglfw.so.3.3
 OpenGL: /usr/lib/libGLX.so
 OpenGL: /usr/lib/libOpenGL.so
-OpenGL: /usr/lib/librt.so
-OpenGL: /usr/lib/libm.so
-OpenGL: /usr/lib/libX11.so
 OpenGL: CMakeFiles/OpenGL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGL.dir/link.txt --verbose=$(VERBOSE)

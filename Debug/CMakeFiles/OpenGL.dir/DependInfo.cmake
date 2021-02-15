@@ -10,15 +10,11 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "_deps/thirdparty-glew-src/include"
   "../include"
-  "_deps/thirdparty-glfw-src/include"
-  "_deps/thirdparty-glm-src/glm/.."
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ian/School/Winter 2021/COMP 371/Udemy/Debug/_deps/thirdparty-glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
