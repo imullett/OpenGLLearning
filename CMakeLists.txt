@@ -7,6 +7,7 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/dist CACHE PATH ${CMAKE_SOURCE_DIR}
 find_package(OpenGL REQUIRED COMPONENTS OpenGL)
 find_package(glfw3 3.3 REQUIRED)
 find_package(GLEW REQUIRED)
+find_package(glm REQUIRED)
 
 set(EXEC "OpenGL")
 
@@ -14,7 +15,7 @@ set(SRC src/main.cpp)
 
 add_executable(${EXEC} ${SRC})
 
-target_link_libraries(${EXEC} OpenGL::GL GLEW glfw)
+target_link_libraries(${EXEC} OpenGL::GL GLEW glfw glm)
 
 target_include_directories(${EXEC} PUBLIC include)
 
